@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Олег Карапетов | Инженер</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(145deg, #e9f0f5 0%, #d9e2ec 100%);
+            padding: 30px 20px;
+            min-height: 100vh;
+        }
+
+        .card {
+            max-width: 750px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.2);
+            padding: 35px 30px;
+            transition: all 0.2s;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #1a3e50;
+            border-left: 6px solid #2c7da0;
+            padding-left: 20px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .age {
+            font-size: 18px;
+            color: #2c7da0;
+            background: #e6f4fa;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 40px;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            margin: 25px 0;
+            border: none;
+            height: 2px;
+            background: #cbdde6;
+            border-radius: 2px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #1e4a62;
+            margin-bottom: 15px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 i {
+            font-size: 26px;
+        }
+
+        p, li {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #1f2f38;
+        }
+
+        ul {
+            margin: 12px 0 12px 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .company {
+            background: #f0f7fb;
+            padding: 15px 20px;
+            border-radius: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #2c7da0;
+        }
+
+        .games-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .game-tag {
+            background: #ecf3f8;
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-size: 16px;
+            color: #1a4b64;
+            font-weight: 500;
+        }
+
+        .footer {
+            margin-top: 35px;
+            text-align: center;
+            font-size: 14px;
+            color: #6b8ea0;
+            border-top: 1px solid #cbdde6;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 550px) {
+            .card {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 21px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Карапетов Олег Олегович</h1>
+        <div class="age">🎂 30 лет</div>
+
+        <hr>
+
+        <h2>💼 Работа</h2>
+        <p>С <strong>лета 2022 года</strong> работаю в компании <strong>«Сибинтек»</strong> в должности <strong>инженера</strong>.</p>
+        <div class="company">
+            📟 Компания занимается обслуживанием:
+            <ul style="margin-top: 8px;">
+                <li>промышленных газоанализаторов</li>
+                <li>поточных анализаторов</li>
+                <li>измерительных приборов</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>🎲 Хобби</h2>
+        <p>Обожаю настольные игры. В моей коллекции:</p>
+        <div class="games-list">
+            <span class="game-tag">🧙 Властелин колец</span>
+            <span class="game-tag">🎲 Трон кубов</span>
+            <span class="game-tag">⚡ Гарри Поттер</span>
+            <span class="game-tag">🏰 Каркасон</span>
+            <span class="game-tag">🌾 Колонизаторы</span>
+            <span class="game-tag">🚂 Билет на поезд</span>
+        </div>
+        <p style="margin-top: 18px;">И много других — всегда рад новой партии!</p>
+
+        <div class="footer">
+            © 2025, Олег Карапетов · Инженер и настольщик
+        </div>
+    </div>
+</body>
+</html>
